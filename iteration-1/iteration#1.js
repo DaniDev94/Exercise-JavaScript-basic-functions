@@ -55,4 +55,11 @@ function sum3(numberOne, numberTwo) {
 
 sum3(5678, 700);
 sum3(50, 700);
-// sum3()--> Error - Cannot read property 'toString' of undefined
+//sum3()--> Error - Cannot read property 'toString' of undefined
+
+
+
+function sum() {
+  console.log('Entrando en cero parametros');
+}
+sum();
