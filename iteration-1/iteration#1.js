@@ -58,8 +58,18 @@ sum3(50, 700);
 //sum3()--> Error - Cannot read property 'toString' of undefined
 
 
+console.log();
+console.log("Prueba 4______________________________________________________________________________________________");
 
-function sum() {
-  console.log('Entrando en cero parametros');
+// Test 4 - (posible solución)
+
+function sum4(numberOne, numberTwo) {
+  if(numberOne > numberTwo){
+    console.log(numberOne)
+  } else {
+    console.log(numberTwo)
+  }
 }
-sum();
+
+
+sum4(260, 235);
