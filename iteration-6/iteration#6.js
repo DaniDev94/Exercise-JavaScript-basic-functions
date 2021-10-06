@@ -19,3 +19,6 @@ function removeDuplicates(elemets) {
 };
 
 removeDuplicates(duplicates);
+
+
+
